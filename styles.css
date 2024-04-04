@@ -94,4 +94,41 @@ h2 {
     width: 30px;
   }
 
+  @media only screen and (max-width: 800px) {
+    
+    
+    .container {
+        padding-top: 2vh;
+        padding-right: 10vh;
+        padding-bottom: 2vh;
+        padding-left: 10vh;
+        color: black;
+    }
+    
+    
+    .container .accordion{
+        padding: 5px 10px;
+        width: 50%;
+    
+    }
+    
+    .container .accordion.active .content {
+        height: 60px;
+        width:90%;
+        
+      }
+      h2 {
+        text-align:justify;
+    }
+    
+    .accordion .label{
+        font-size: 18px;
+    }
+
+    
+  }
+    
+  
+
+
   
